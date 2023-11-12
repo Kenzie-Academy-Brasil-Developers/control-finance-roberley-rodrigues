@@ -18,9 +18,40 @@
     <link rel="stylesheet" href="./src/styles/index.css" />
   </head>
   <body>
-    <main id="app"></main>
-    <script src="./src/scripts/modal.js"></script>
-    <script src="./src/scripts/valuesData.js"></script>
-    <script src="./src/scripts/index.js"></script>
+    <header>
+      <nav>
+        <h1><span>Control</span> Finance</h1>
+        <button class="show__modal">Registre novo valor</button>
+    </nav>
+  </header>
+    <main id="main__container">
+      <section class="buttons__filter">
+        <h3>Resumo financeiro</h3>
+        <div>
+          <button class="button-outline" id="button__all">Todos</button>
+          <button class="button-outline" id="button__entry">Entradas</button>
+          <button class="button-outline" id="button__exit">Saidas</button> 
+        </div>
+      </section>
+      <section class="value__sum">
+        <p>Soma dos valores</p>
+        <p class="total__sum"></p>
+      </section>
+      <section class="list__container">
+      </section>
+    </main>
+    <dialog class="modal__controller">
+      <div class="modal__container">
+      </div>
+    </dialog>
+    <script src="./src/scripts/modal.js" type="module"></script>
+    <script src="./src/scripts/index.js" type="module"></script>
+    <script src="./src/scripts/valuesData.js" type="module"></script>
+    
   </body>
 </html>
+
+<div>
+  <p></p>
+  <p></p>
+</div>

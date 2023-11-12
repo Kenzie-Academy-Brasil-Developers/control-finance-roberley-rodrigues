@@ -1,0 +1,80 @@
+.button-primary{
+    border-radius: var(--radius-1);
+    background-color: var(--color-brand-1);
+    border: 0.0938rem solid;
+    border-color: var(--color-brand-1);
+    padding: 0rem 0.875rem 0rem 0.875rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button-outline{
+    padding: 0rem 0.875rem 0rem 0.875rem;
+    background-color: #ffffff;
+    border: 0.0938rem solid;
+    border-color: var(--color-grey-5);
+    border-radius: var(--radius-1);
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-1);
+    line-height: var(--font-line-height-1);
+    color: var(--color-grey-2);
+    cursor: pointer;
+}
+
+.button-outline:hover{
+    border-color: var(--color-brand-1);
+    color: var(--color-brand-1);
+    background-color: var(--color-brand-3);
+}
+
+.button-outline:active{
+    border-color: var(--color-brand-1);
+    color: var(--color-brand-1);
+    background-color: var(--color-brand-3);
+}
+
+.button-outline:focus{
+    border-color: var(--color-brand-1);
+    color: var(--color-brand-1);
+    background-color: var(--color-brand-3);
+}
+
+.button-greylow{
+    padding: 0rem 0.875rem 0rem 0.875rem;
+    border: 0.0938rem solid transparent;
+    color: var(--color-grey-2);
+    background-color: var(--color-grey-5);
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+
+.button-greylow:hover{
+    background-color: var(--color-grey-4);
+    color: var(--color-grey-1);
+}
+
+.button-delete{
+    padding: 0rem 0.5rem;
+    height: 1.625rem;
+    width: 1.7656rem;
+    border-radius: 0.25rem;
+    border: 0.0938rem;
+    border-color:var(--color-grey-5);
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.button-delete:hover{
+    background-color: var(--color-grey-5);
+}
+
+.close-modal{
+    width: 2.1875rem;
+    height: 1.875rem;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.75rem;
+    background-color: var(--color-grey-5);
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
